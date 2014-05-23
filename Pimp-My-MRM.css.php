@@ -26,3 +26,15 @@
 	padding-top: 50px;
 }
 <?php endif; ?>
+
+<?php if (isset($_GET['FullWidth'])): ?>
+#body-area {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#body-area > .col-md-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+<?php endif; ?>
