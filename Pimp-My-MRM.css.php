@@ -12,3 +12,17 @@
 	display: none;
 }
 <?php endif; ?>
+
+<?php if (isset($_GET['FixarHeader'])): ?>
+#header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+
+#body-area {
+	margin: 0 80px;
+	padding-top: 50px;
+}
+<?php endif; ?>
