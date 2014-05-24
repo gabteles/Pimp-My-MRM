@@ -27,10 +27,9 @@
 }
 <?php endif; ?>
 
-<?php if (isset($_GET['Sidebar'])): ?>
+<?php if (isset($_GET['SidebarVerdana'])): ?>
 #sidebar {
 	font-family: "Verdana",sans-serif;
-	opacity: 0,5;
 }
 <?php endif; ?>
 
