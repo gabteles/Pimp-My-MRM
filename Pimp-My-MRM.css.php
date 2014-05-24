@@ -27,6 +27,13 @@
 }
 <?php endif; ?>
 
+<?php if (isset($_GET['Sidebar'])): ?>
+#sidebar {
+	font-family: "Verdana",sans-serif;
+	opacity: 0,5;
+}
+<?php endif; ?>
+
 <?php if (isset($_GET['FullWidth'])): ?>
 #body-area {
 	margin-left: 0;
