@@ -16,9 +16,10 @@
 <?php if (isset($_GET['FixarHeader'])): ?>
 #header {
 	position: fixed;
-	width: 100%;
 	z-index: 1;
 	top: 0;
+	left: 205px;
+	right: 0px;
 }
 
 #body-area {
