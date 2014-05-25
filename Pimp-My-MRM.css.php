@@ -116,3 +116,26 @@ a, #sidebar a {
 	display: none;
 }
 <?php endif; ?>
+
+<?php if (isset($_GET['SlimPosterArea'])): ?>
+@media (min-width: 995px) {
+	.poster .row > .col-md-12:not(.blurb) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.post-content .poster {
+		width: 141px !important;
+	}
+
+	.post-content .postarea {
+		padding-left: 141px;
+	}
+	
+	.post-content .poster .awards fieldset {
+		border-bottom: none;
+		border-left: none;
+		border-right: none;
+	}
+}
+<?php endif; ?>
