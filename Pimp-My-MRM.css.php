@@ -117,6 +117,7 @@ a, #sidebar a {
 }
 <?php endif; ?>
 
+<<<<<<< HEAD
 <?php if (isset($_GET['SlimPosterArea'])): ?>
 @media (min-width: 995px) {
 	.poster .row > .col-md-12:not(.blurb) {
@@ -139,3 +140,19 @@ a, #sidebar a {
 	}
 }
 <?php endif; ?>
+=======
+ <?php if (isset($_GET['RemoverPremios'])): ?>
+.post-content .poster .awards {
+margin-bottom: 10px;
+display: none;
+}
+<?php endif; ?>
+
+<?php if (isset($_GET['RemoverFrasePessoal'])): ?>
+.post-content .poster .blurb {
+margin-top: 5px;
+margin-bottom: 5px;
+display: none;
+}
+<?php endif; ?>
+>>>>>>> 195c599b67b719041c1de05a060fcfe552720a32
