@@ -110,3 +110,9 @@ a, #sidebar a {
 }
 
 <?php endif; ?>
+
+<?php if (isset($_GET['RemoverConquistas'])): ?>
+.post-content .poster .conquistas {
+	display: none;
+}
+<?php endif; ?>
