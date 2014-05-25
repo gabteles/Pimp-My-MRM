@@ -45,3 +45,59 @@
 	padding-right: 0;
 }
 <?php endif; ?>
+
+<?php if (isset($_GET['TemaVerde'])): ?>
+#header #logo {
+	background-color:#64bc50 !important;
+}
+
+#sidebar .side-menu>ul li.current {
+	background-color:#64bc50 !important;
+}
+
+#sidebar .menu-pages {
+    color:#64bc50;
+}
+
+a, #sidebar a {
+    color:#64bc50;
+}
+
+.panel-category a:hover {
+	color:#386c2c;
+}
+
+#info-center .panel-body>.row h5 a {
+	color:#64bc50;
+}
+
+#info-center .panel-body>.row h5 a:hover {
+	color:#386c2c;
+}
+
+#info-center .panel-body>.row h5 {
+	color:#64bc50;
+}
+
+.panel-default>.panel-heading {
+    background-color: #f5f5f5 !important;
+}
+
+.panel-heading {
+	background-color:#64bc50 !important;
+}
+
+.panel.panel-category {
+	border-color:#64bc50;
+}
+
+#info-center .panel-heading {
+	background-color:#55a044 !important;
+	border-color:#55a044;
+}
+
+#info-center .panel-primary {
+	border-color:#55a044;
+}
+
+<?php endif; ?>
