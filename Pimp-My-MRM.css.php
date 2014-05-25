@@ -140,17 +140,42 @@ a, #sidebar a {
 }
 <?php endif; ?>
 
+
  <?php if (isset($_GET['RemoverPremios'])): ?>
 .post-content .poster .awards {
-margin-bottom: 10px;
-display: none;
+	margin-bottom: 10px;
+	display: none;
 }
 <?php endif; ?>
 
 <?php if (isset($_GET['RemoverFrasePessoal'])): ?>
 .post-content .poster .blurb {
-margin-top: 5px;
-margin-bottom: 5px;
-display: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: none;
+}
+<?php endif; ?>
+
+<?php if (isset($_GET['FixarNotificacoes'])): ?>
+.toggle-notification-feed {
+	position:fixed;
+	border-bottom-left-radius:5px;
+	z-index:99;
+	border-bottom-right-radius:5px;
+	top:0;
+	padding:15px;
+	margin-left:-47px;
+	background-color:#00acee;
+}
+
+#header #logo {
+	padding-bottom: 13px;
+}
+
+#jGrowl {
+	margin-right:4px;
+	top:50px;
+	position:fixed;
+	z-index:99;
 }
 <?php endif; ?>
