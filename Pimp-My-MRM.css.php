@@ -43,6 +43,13 @@
 }
 <?php endif; ?>
 
+ <?php if (isset($_GET['RemoverConquistas'])): ?>
+.poster .conquistas {
+margin-bottom: 10px;
+display: none;
+}
+<?php endif; ?>
+
 <?php if (isset($_GET['FullWidth'])): ?>
 #body-area {
 	margin-left: 0;
