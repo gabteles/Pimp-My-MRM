@@ -34,6 +34,15 @@
 }
 <?php endif; ?>
 
+<?php if (isset($_GET['ImagemDeFundo'])): ?>
+#main {
+	font-family: "Open Sans",Arial,Helvetica,sans-serif;
+	background-color: #e9eaed;
+	background-image: url(http://i.imgur.com/087A3X1.png);
+	background-repeat: repeat;
+}
+<?php endif; ?>
+
 <?php if (isset($_GET['FullWidth'])): ?>
 #body-area {
 	margin-left: 0;
