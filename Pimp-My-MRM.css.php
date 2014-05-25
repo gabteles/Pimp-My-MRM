@@ -132,7 +132,7 @@ a, #sidebar a {
 		padding-left: 141px;
 	}
 	
-	.post-content .poster .awards fieldset {
+	.post-content .poster .awards fieldset, .post-content .poster .conquistas fieldset {
 		border-bottom: none;
 		border-left: none;
 		border-right: none;
