@@ -139,3 +139,18 @@ a, #sidebar a {
 	}
 }
 <?php endif; ?>
+
+ <?php if (isset($_GET['RemoverPremios'])): ?>
+.post-content .poster .awards {
+margin-bottom: 10px;
+display: none;
+}
+<?php endif; ?>
+
+<?php if (isset($_GET['RemoverFrasePessoal'])): ?>
+.post-content .poster .blurb {
+margin-top: 5px;
+margin-bottom: 5px;
+display: none;
+}
+<?php endif; ?>
