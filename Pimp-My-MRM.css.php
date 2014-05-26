@@ -182,6 +182,7 @@ a, #sidebar a {
 	margin-left:-30px;
 	top:18px;
 	z-index:101;
+	right: -23px;
 }
 <?php endif; ?>
 
