@@ -178,11 +178,10 @@ a, #sidebar a {
 }
 
 .notify-count span {
-	position:fixed;
-	margin-left:-30px;
-	top:18px;
-	z-index:101;
-	right: -23px;
+	position: fixed;
+	top: 18px;
+	z-index: 101;
+	right: 78px;
 }
 <?php endif; ?>
 
