@@ -155,14 +155,14 @@ a, #sidebar a {
 
 <?php if (isset($_GET['FixarNotificacoes'])): ?>
 .toggle-notification-feed {
-	position: fixed;
-	border-bottom-left-radius: 5px;
-	z-index: 99;
-	border-bottom-right-radius: 5px;
-	top: 0;
-	padding: 15px;
-	margin-left: 2.5%;
-	background-color: #00acee;
+	position:fixed;
+	border-bottom-left-radius:5px;
+	z-index:99;
+	border-bottom-right-radius:5px;
+	top:0;
+	padding:15px;
+	margin-left:-47px;
+	background-color:#00acee;
 }
 
 #header #logo {
@@ -181,5 +181,31 @@ a, #sidebar a {
 	margin-left:-30px;
 	top:18px;
 	z-index:101;
+}
+<?php endif; ?>
+
+<?php if (isset($_GET['TemaAntigo'])): ?>
+.panel.panel-category>.panel-heading {
+	background-image: url(http://i.imgur.com/R3Sxw3k.gif);
+}
+.panel-primary>.panel-heading {
+	background-image: url(http://i.imgur.com/FUFHWiX.jpg);
+}
+.panel-default>.panel-heading {
+	background-image: url(http://i.imgur.com/FUFHWiX.jpg);
+}
+.panel-default>.panel-heading a {
+	color: #fff;
+}
+footer {
+	background: url(http://i.imgur.com/FUFHWiX.jpg);
+	color: #000;
+}
+footer a {
+	color: #fff;
+}
+#header #logo {
+	background: rgba(44, 132, 202, 0.7);
+	border-bottom: 1px solid #4a76cd;
 }
 <?php endif; ?>
