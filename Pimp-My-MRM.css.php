@@ -174,6 +174,7 @@ a, #sidebar a {
 	top:50px;
 	position:fixed;
 	z-index:99;
+	right: 11px;
 }
 
 .notify-count span {
