@@ -142,7 +142,8 @@ a, #sidebar a {
 
 
  <?php if (isset($_GET['RemoverPremios'])): ?>
-.post-cdisplay: none !important;
+.post-content .poster .awards {
+	display: none !important;
 }
 <?php endif; ?>
 
