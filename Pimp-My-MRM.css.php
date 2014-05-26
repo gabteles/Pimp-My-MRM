@@ -161,7 +161,7 @@ a, #sidebar a {
 	border-bottom-right-radius:5px;
 	top:0;
 	padding:15px;
-	margin-left:-47px;
+	margin-left:2.5%;
 	background-color:#00acee;
 }
 
