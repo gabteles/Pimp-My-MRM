@@ -161,7 +161,7 @@ a, #sidebar a {
 	border-bottom-right-radius:5px;
 	top:0;
 	padding:15px;
-	margin-left:2.5%;
+	margin-left:-47px;
 	background-color:#00acee;
 }
 
@@ -170,11 +170,10 @@ a, #sidebar a {
 }
 
 #jGrowl {
-	margin-right:4px;
+	margin-right:85px;
 	top:50px;
 	position:fixed;
 	z-index:99;
-	right: 11px;
 }
 
 .notify-count span {
