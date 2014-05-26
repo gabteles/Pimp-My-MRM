@@ -9,7 +9,7 @@
  
 <?php if (isset($_GET['RemoverBarrinhas'])): ?>
 .post-content > .poster > .row:nth-child(3) {
-	display: none;
+	display: none !important;
 }
 <?php endif; ?>
 
@@ -113,7 +113,7 @@ a, #sidebar a {
 
 <?php if (isset($_GET['RemoverConquistas'])): ?>
 .post-content .poster .conquistas {
-	display: none;
+	display: none !important;
 }
 <?php endif; ?>
 
@@ -142,17 +142,13 @@ a, #sidebar a {
 
 
  <?php if (isset($_GET['RemoverPremios'])): ?>
-.post-content .poster .awards {
-	margin-bottom: 10px;
-	display: none;
+.post-cdisplay: none !important;
 }
 <?php endif; ?>
 
 <?php if (isset($_GET['RemoverFrasePessoal'])): ?>
 .post-content .poster .blurb {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	display: none;
+	display: none !important;
 }
 <?php endif; ?>
 
@@ -177,5 +173,12 @@ a, #sidebar a {
 	top:50px;
 	position:fixed;
 	z-index:99;
+}
+
+.notify-count span {
+	position:fixed;
+	margin-left:-30px;
+	top:18px;
+	z-index:101;
 }
 <?php endif; ?>
