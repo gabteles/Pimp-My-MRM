@@ -211,3 +211,121 @@ footer a {
 	border-bottom: 1px solid #4a76cd;
 }
 <?php endif; ?>
+
+<?php if (isset($_GET['TemaVermelho'])): ?>
+#header #logo {
+        background-color:#bc3e3f !important;
+}
+ 
+#sidebar .side-menu>ul li.current {
+        background-color:#bc3e3f !important;
+}
+ 
+#sidebar .menu-pages {
+    color:#bc3e3f;
+}
+ 
+a, #sidebar a {
+    color:#bc3e3f;
+}
+ 
+a:hover, #sidebar a:hover {
+        color:#712626;
+}
+ 
+.panel-category a:hover {
+        color:#712626;
+}
+ 
+#info-center .panel-body>.row h5 a {
+        color:#bc3e3f;
+}
+ 
+#info-center .panel-body>.row h5 a:hover {
+        color:#712626;
+}
+ 
+#info-center .panel-body>.row h5 {
+        color:#bc3e3f;
+}
+ 
+.panel-default>.panel-heading {
+    background-color: #f5f5f5 !important;
+}
+ 
+.panel-heading {
+        background-color:#bc3e3f !important;
+}
+ 
+.panel.panel-category {
+        border-color:#bc3e3f;
+}
+ 
+#info-center .panel-heading {
+        background-color:#8b302f !important;
+        border-color:#8b302f;
+}
+ 
+#info-center .panel-primary {
+        border-color:#8b302f;
+}
+<?php endif; ?>
+ 
+<?php if (isset($_GET['TemaLaranja'])): ?>
+#header #logo {
+        background-color:#cf742d !important;
+}
+ 
+#sidebar .side-menu>ul li.current {
+        background-color:#cf742d !important;
+}
+ 
+#sidebar .menu-pages {
+    color:#cf742d;
+}
+ 
+a, #sidebar a {
+    color:#cf742d;
+}
+ 
+a:hover, #sidebar a:hover {
+        color:#7a451a;
+}
+ 
+.panel-category a:hover {
+        color:#7a451a;
+}
+ 
+#info-center .panel-body>.row h5 a {
+        color:#cf742d;
+}
+ 
+#info-center .panel-body>.row h5 a:hover {
+        color:#7a451a;
+}
+ 
+#info-center .panel-body>.row h5 {
+        color:#cf742d;
+}
+ 
+.panel-default>.panel-heading {
+    background-color: #f5f5f5 !important;
+}
+ 
+.panel-heading {
+        background-color:#cf742d !important;
+}
+ 
+.panel.panel-category {
+        border-color:#cf742d;
+}
+ 
+#info-center .panel-heading {
+        background-color:#995621 !important;
+        border-color:#995621;
+}
+ 
+#info-center .panel-primary {
+        border-color:#995621;
+}
+<?php endif; ?>
