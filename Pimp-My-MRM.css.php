@@ -329,3 +329,13 @@ a:hover, #sidebar a:hover {
         border-color:#995621;
 }
 <?php endif; ?>
+
+<?php if (isset($_GET['DesabilitarYou'])): ?>
+abbr.bbc_you span {
+	display: none;
+}
+
+abbr.bbc_you:after {
+	content: "[you]";
+}
+<?php endif; ?>
