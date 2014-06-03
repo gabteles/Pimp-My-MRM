@@ -129,7 +129,7 @@ a, #sidebar a {
 	}
 
 	.pm-body .pm-content, .post-content .postarea {
-		padding-left: 141px;
+		padding-left: 141px !important;
 	}
 	
 	.pm-body .pm-sender .awards fieldset, .pm-body .pm-sender .conquistas fieldset, .post-content .poster .awards fieldset, .post-content .poster .conquistas fieldset {
