@@ -8,7 +8,7 @@
  */
  
 <?php if (isset($_GET['RemoverBarrinhas'])): ?>
-.post-content > .poster > .row:nth-child(3) {
+.pm-body > .pm-sender > .row:nth-child(3), .post-content > .poster > .row:nth-child(3) {
 	display: none !important;
 }
 <?php endif; ?>
@@ -112,27 +112,27 @@ a, #sidebar a {
 <?php endif; ?>
 
 <?php if (isset($_GET['RemoverConquistas'])): ?>
-.post-content .poster .conquistas {
+.pm-body .pm-sender .conquistas, .post-content .poster .conquistas {
 	display: none !important;
 }
 <?php endif; ?>
 
 <?php if (isset($_GET['SlimPosterArea'])): ?>
 @media (min-width: 995px) {
-	.poster .row > .col-md-12:not(.blurb) {
+	.pm-body .pm-sender > .row > .col-md-12:not(.blurb), .poster .row > .col-md-12:not(.blurb) {
 		padding-left: 0;
 		padding-right: 0;
 	}
 
-	.post-content .poster {
+	.pm-body .pm-sender, .post-content .poster {
 		width: 141px !important;
 	}
 
-	.post-content .postarea {
+	.pm-body .pm-content, .post-content .postarea {
 		padding-left: 141px;
 	}
 	
-	.post-content .poster .awards fieldset, .post-content .poster .conquistas fieldset {
+	.pm-body .pm-sender .awards fieldset, .pm-body .pm-sender .conquistas fieldset, .post-content .poster .awards fieldset, .post-content .poster .conquistas fieldset {
 		border-bottom: none;
 		border-left: none;
 		border-right: none;
@@ -142,13 +142,13 @@ a, #sidebar a {
 
 
  <?php if (isset($_GET['RemoverPremios'])): ?>
-.post-content .poster .awards {
+.pm-body .pm-sender .awards, .post-content .poster .awards {
 	display: none !important;
 }
 <?php endif; ?>
 
 <?php if (isset($_GET['RemoverFrasePessoal'])): ?>
-.post-content .poster .blurb {
+.pm-body .pm-sender .blurb, .post-content .poster .blurb {
 	display: none !important;
 }
 <?php endif; ?>
